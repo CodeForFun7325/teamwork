@@ -4,6 +4,7 @@
  - Azure Storage Account (Store images and files)
  - Azure CosmosDB (Store events)
  - Azure Container Instances (For developing and testing containers)
+ - Azure CDN
  - Azure Container Registry (Storing container images)
  - Azure Web Apps (Deploying web application)
  - Azure Functions (Trigger functionality when an event occurs)
@@ -13,6 +14,7 @@
 
 ## Features
  - Create a team (group)
+ - Upload important documents and assign tags for organization. Integrates exporation dates on shared links
  - See who is in their organization
  - Invite other people via their email
  - Log in to application using outlook email

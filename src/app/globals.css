@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+header { 
+  padding: 0.25rem 0.5rem; 
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -40,3 +44,4 @@ a {
     color-scheme: dark;
   }
 }
+
