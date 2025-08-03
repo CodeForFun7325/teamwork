@@ -1,0 +1,44 @@
+.hamburger-menu {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff; 
+  border-radius: 2px;
+}
+
+.mobile-nav-window { 
+  overflow-x: hidden; 
+  position: absolute; 
+  height: 100vh;
+  width: 33vw;
+  padding: 1rem; 
+  top: 0; 
+  right: 0; 
+  background: rgba(20, 18, 18, 1);  
+  z-index: 1; 
+}
+
+.close-button, .mobile-nav-link { 
+  list-style: none; 
+  padding: 0; 
+}
+
+.close-button { 
+  font-size: 2rem;
+  position: absolute; 
+  right: 5%; 
+  top: 0; 
+}
+
+.mobile-nav-link { 
+  font-size: 1.2rem; 
+  margin: 0.25rem 0; 
+}
