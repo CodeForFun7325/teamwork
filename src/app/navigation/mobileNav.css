@@ -18,7 +18,7 @@
   overflow-x: hidden; 
   position: absolute; 
   height: 100vh;
-  width: 33vw;
+  width: 100vw;
   padding: 1rem; 
   top: 0; 
   right: 0; 
@@ -26,19 +26,38 @@
   z-index: 1; 
 }
 
-.close-button, .mobile-nav-link { 
-  list-style: none; 
-  padding: 0; 
+.nav-header { 
+  display: flex; 
+  align-items: center; 
+  margin: 1.2rem 0; 
+  justify-content: space-between; 
 }
 
 .close-button { 
   font-size: 2rem;
-  position: absolute; 
-  right: 5%; 
-  top: 0; 
+  background-color: transparent; 
+  width: 40px; 
+  height: 40px; 
+  border: 1px solid #ffffff;
+  border-radius: 20%; 
+}
+
+.mobile-nav-links { 
+  margin-top: 2rem; 
+  display: flex; 
+  flex-direction: rows; 
+  flex-wrap: wrap; 
 }
 
 .mobile-nav-link { 
   font-size: 1.2rem; 
-  margin: 0.25rem 0; 
+  width: 100%; 
+  font-weight: 600; 
+  padding: .75rem 1rem; 
+  margin: .25rem 0; 
+  border-radius: 10px; 
+}
+
+.mobile-nav-link:hover, .mobile-nav-link:focus { 
+  background: #4a4c4f; 
 }

@@ -1,5 +1,6 @@
 "use client"; 
 import React, { useState } from 'react'; 
+import Link from 'next/link';
 
 import "./mobileNav.css"; 
 
@@ -19,12 +20,18 @@ export default function MobileNav() {
       </div>
 
       {isOpen && (
-        <ul className="mobile-nav-window">
-          <li className="close-button" onClick={handleMenuOpenClose}>&times;</li>
-          <li className="mobile-nav-link"><a href="/">Home</a></li>
-          <li className="mobile-nav-link"><a href="/about">About</a></li>
-          <li className="mobile-nav-link"><a href="/contact">Contact</a></li>
-        </ul>
+        <div className="mobile-nav-window">
+          <div className="nav-header">
+            <h2>TeamWorks</h2>
+            <button className="close-button" onClick={handleMenuOpenClose}>&times;</button>
+          </div>
+          
+          <div className="mobile-nav-links">
+            <Link className="mobile-nav-link" href="/">Home</Link>
+            <Link className="mobile-nav-link" href="/">About</Link>
+            <Link className="mobile-nav-link" href="/">Contact</Link>
+          </div>
+        </div>
       )}
     </>
   );

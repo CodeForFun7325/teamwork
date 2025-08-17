@@ -13,18 +13,21 @@
  - Microsoft Identities
 
 ## Features
- - Create a team (group)
- - Upload important documents and assign tags for organization. Integrates exporation dates on shared links
- - See who is in their organization
- - Invite other people via their email
- - Log in to application using outlook email
- - Add events to their calendar 
-    - Meetings
-    - Events
-    - Reminders
- - Send out an email reminder for the user 15 minutes before their event starts
- - Allows the user to attach files and messages to the event
- - Shared meeting notes
+ - ### Core Features: 
+    - Create a team (group)
+    - Upload important documents and assign tags for organization. Integrates exporation dates on shared links
+    - See who is in their organization
+
+ - ### Additional Desired Features: 
+    - Invite other people via their email
+    - Log in to application using outlook email
+    - Add events to their calendar 
+        - Meetings
+        - Events
+        - Reminders
+    - Send out an email reminder for the user 15 minutes before their event starts
+    - Allows the user to attach files and messages to the event
+    - Shared meeting notes
 
 
 
