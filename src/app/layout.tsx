@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import MobileNav from "./navigation/mobileNav";
+import MobileNav from "./components/nav/mobileNav";
 import "./globals.css";
 import "./style.css"; 
 
@@ -21,7 +21,6 @@ export default function RootLayout({
           <h1>TeamWorks</h1>
           <MobileNav />
         </header>
-
         {children}
       </body>
     </html>

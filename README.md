@@ -29,5 +29,8 @@
     - Allows the user to attach files and messages to the event
     - Shared meeting notes
 
+## References
+ - [How to build APIs with Next.js](#https://nextjs.org/blog/building-apis-with-nextjs#11-create-a-nextjs-app)
+
 
 
