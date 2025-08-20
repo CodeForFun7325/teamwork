@@ -14,20 +14,16 @@
 
 ## Features
  - ### Core Features: 
-    - Create a team (group)
-    - Upload important documents and assign tags for organization. Integrates exporation dates on shared links
-    - See who is in their organization
+    - Authentication
+    - Create a team
+    - Schedule team meetings/events
+    - Upload important documents to meetings and assign tags for organization. 
+    - Gallery to view different files
 
  - ### Additional Desired Features: 
     - Invite other people via their email
     - Log in to application using outlook email
-    - Add events to their calendar 
-        - Meetings
-        - Events
-        - Reminders
     - Send out an email reminder for the user 15 minutes before their event starts
-    - Allows the user to attach files and messages to the event
-    - Shared meeting notes
 
 ## References
  - [How to build APIs with Next.js](#https://nextjs.org/blog/building-apis-with-nextjs#11-create-a-nextjs-app)
