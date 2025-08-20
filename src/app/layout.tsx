@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import MobileNav from "./navigation/mobileNav";
-import "./globals.css";
-import "./style.css"; 
+import "./style/globals.css";
 
 export const metadata: Metadata = {
   title: "TeamWorks",
@@ -15,13 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-
       <body className="page">
-        <header className="home-page-header">
-          <h1>TeamWorks</h1>
-          <MobileNav />
-        </header>
-
         {children}
       </body>
     </html>
