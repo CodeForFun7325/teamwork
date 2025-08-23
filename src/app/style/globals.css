@@ -1,13 +1,8 @@
 :root {
   --background: #ffffff;
-  --foreground: #rgba(20, 18, 18, 1);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #rgba(20, 18, 18, 1);
-    --foreground: #ededed;
-  }
+  --foreground: #141212;
+  --primary: #141212;
+  --secondary: #ffffff;
 }
 
 html,
@@ -39,8 +34,11 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.menu-header { 
+  width: 100%; 
+  padding: 0.5rem 1rem;
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-between; 
 }
