@@ -27,6 +27,7 @@
 
 ## References
  - [How to build APIs with Next.js](#https://nextjs.org/blog/building-apis-with-nextjs#11-create-a-nextjs-app)
-
+ - [How to authenticate using MSAL](#https://github.com/Azure-Samples/ms-identity-ciam-javascript-tutorial/blob/main/1-Authentication/1-sign-in-react/README.md#prerequisites)
+ - [Authentication in React with JWTs, Access & Refresh Tokens](#https://www.youtube.com/watch?v=AcYF18oGn6Y)
 
 
