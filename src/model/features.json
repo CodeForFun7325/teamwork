@@ -1,0 +1,22 @@
+[
+  {
+    "featureName": "Create & Manage Teams Effortlessly", 
+    "featureImage": "/home/createTeam.png", 
+    "featureDesc": "Easily create teams, assign roles, and manage permissions to ensure everyone has the right access."
+  }, 
+  { 
+    "featureName": "Schedule Meetings & Events with Ease", 
+    "featureImage": "/home/calendar.png", 
+    "featureDesc": "Use our intuitive calendar to schedule meetings, set reminders, and avoid conflicts."
+  }, 
+  {
+    "featureName": "Upload & Attach Documents", 
+    "featureImage": "/home/uploadattachments.png", 
+    "featureDesc": "Quickly upload and attach documents meetings for easy access."
+  }, 
+  {
+    "featureName": "tag Files for Organization", 
+    "featureImage": "/home/tagfiles.png", 
+    "featureDesc": "Assign tags to files for better organization and quick retrieval."
+  }
+] 

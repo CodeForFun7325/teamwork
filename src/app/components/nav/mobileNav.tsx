@@ -22,7 +22,7 @@ export default function MobileNav() {
       {isOpen && (
         <div className="mobile-nav-window">
           <div className="nav-header">
-            <h2>TeamWorks</h2>
+            <h2>Teamworks</h2>
             <button className="close-button" onClick={handleMenuOpenClose}>&times;</button>
           </div>
           

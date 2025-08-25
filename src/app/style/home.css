@@ -1,11 +1,63 @@
-.home-page-header { 
-  display: flex;
-  justify-content: space-between; 
+.home-page { 
+  display: flex; 
+  flex-direction: column;
   align-items: center; 
-  padding: 0.5rem; 
-  position: fixed; 
-  width: 100%; 
-  background-color: #0a0a0a;
-  border-bottom: 1px solid #525252; 
 }
 
+.section-title { 
+  margin: 0.5rem 0; 
+}
+
+p { 
+  color: var(--secondary-text); 
+}
+
+.teamwork-moto > .teamwork-description { 
+  width: 200px;
+  margin: 0.5rem 0; 
+}
+
+.teamwork-buttons, .teamwork-images { 
+  width: 50%; 
+}
+
+.teamwork-buttons > :first-child { 
+  background: var(--primary-buttons); 
+  color: var(--button-text); 
+  border-radius: 5px; 
+  margin: 1.25rem 0; 
+  font-size: 1.05rem; 
+  padding: 0.3rem 0.5rem; 
+  font-weight: 550; 
+  border: none; 
+}
+
+.teamwork-content { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  max-width: 350px; 
+}
+
+.collaboration-image { 
+    width: 140px; 
+    height: 125px; 
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: 5px; 
+}
+
+.home-page-calendar { 
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  object-position: center; 
+}
+
+.teamwork-moto, 
+.calendar-section { 
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around; 
+  padding: 1rem; 
+}

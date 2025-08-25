@@ -1,8 +1,12 @@
 :root {
   --background: #ffffff;
   --foreground: #141212;
-  --primary: #141212;
-  --secondary: #ffffff;
+  --primary-text: #222222;
+  --secondary-text: #666666;
+  --primary-buttons: #009688;
+  --hover-buttons: #00796b;
+  --feature-icons: #E0E0E0;
+  --button-text: #ffffff;
 }
 
 html,

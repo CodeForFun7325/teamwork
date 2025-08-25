@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="page">
         <header className="menu-header">
-          <h1>TeamWorks</h1>
+          <h2>Teamworks</h2>
           <MobileNav />
         </header>
         {children}
